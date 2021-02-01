@@ -74,10 +74,7 @@ const synths = [
 const sampler = new Tone.Sampler({
 	urls: {
     C3: "bubbles.mp3",
-    D3: "clay.mp3",
-    G3: "confetti.mp3",
-    A3: "flash-1.mp3",
-    E3: "moon.mp3"
+
 	},
 	baseUrl: "/sounds/",
 // 	onload: () => {
